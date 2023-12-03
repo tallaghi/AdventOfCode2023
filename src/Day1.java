@@ -7,7 +7,7 @@ import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class Day1 {
+public class Day1 implements Day  {
     public int GetLineTotal(String line){
 
         Matcher matcher = Pattern.compile("\\d").matcher(line);
@@ -24,37 +24,31 @@ public class Day1 {
         return lineTotal;
     }
     public void RunDay(){
-        List<String> result;
-        try (Stream<String> lines = Files.lines(Paths.get(System.getProperty("user.dir") + "\\txt\\" +"Day1.txt"))) {
-            result = lines.collect(Collectors.toList());
+        List<String> result = Util.GetList(1);
 
-            int totalPart1 = 0;
-            int totalPart2 = 0;
-            for (String line : result) {
+        int totalPart1 = 0;
+        int totalPart2 = 0;
+        for (String line : result) {
 
-                totalPart1 += GetLineTotal(line);
+            totalPart1 += GetLineTotal(line);
 
-                String newLine = line.replace("one", "one1one")
-                        .replace("two", "two2two")
-                        .replace("three", "three3three")
-                        .replace("four", "four4four")
-                        .replace("five", "five5five")
-                        .replace("six", "six6six")
-                        .replace("seven", "seven7seven")
-                        .replace("eight", "eight8eight")
-                        .replace("nine", "nine9nine");
+            String newLine = line.replace("one", "one1one")
+                    .replace("two", "two2two")
+                    .replace("three", "three3three")
+                    .replace("four", "four4four")
+                    .replace("five", "five5five")
+                    .replace("six", "six6six")
+                    .replace("seven", "seven7seven")
+                    .replace("eight", "eight8eight")
+                    .replace("nine", "nine9nine");
 
 
-                System.out.println(newLine);
-                totalPart2 += GetLineTotal(newLine);
+            System.out.println(newLine);
+            totalPart2 += GetLineTotal(newLine);
 
-            }
-
-            System.out.println("Part 1: " + totalPart1);
-            System.out.println("Part 2: " + totalPart2);
-
-        } catch (IOException e) {
-            e.printStackTrace();
         }
+
+        System.out.println("Part 1: " + totalPart1);
+        System.out.println("Part 2: " + totalPart2);
     }
 }
