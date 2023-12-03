@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d793bae8-854b-495c-8661-4fe9c8985bcf" name="Changes" comment="" />
+    <list default="true" id="d793bae8-854b-495c-8661-4fe9c8985bcf" name="Changes" comment="day 1 and 2">
+      <change afterPath="$PROJECT_DIR$/src/Day1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/txt/Day1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/txt/Day2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,17 +21,21 @@
   "associatedIndex": 5
 }]]></component>
   <component name="ProjectId" id="2Z2CoUjlJ3QNG8ETInFBgi0jdNa" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "onboarding.tips.debug.path": "S:/Programming/Java/AdventOfCode2023/src/Main.java"
+    "onboarding.tips.debug.path": "S:/Programming/Java/AdventOfCode2023/src/Main.java",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -36,17 +47,21 @@
       <option name="presentableId" value="Default" />
       <updated>1701610962901</updated>
     </task>
+    <task id="LOCAL-00001" summary="test commit">
+      <option name="closed" value="true" />
+      <created>1701611093363</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701611093363</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="test commit" />
+    <MESSAGE value="day 1 and 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 1 and 2" />
   </component>
 </project>
